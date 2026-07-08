@@ -22,6 +22,7 @@ import com.pedropathing.math.*;
 import com.pedropathing.paths.*;
 import com.pedropathing.telemetry.SelectableOpMode;
 import com.pedropathing.util.*;
+import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
@@ -277,6 +278,7 @@ class LateralTuner extends OpMode {
  * @author Baron Henderson - 20077 The Indubitables
  * @version 1.0, 5/6/2024
  */
+@Autonomous
 class TurnTuner extends OpMode {
     public static double ANGLE = 2 * Math.PI;
 
